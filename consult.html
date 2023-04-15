@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Шапка сайта-->
+    <header>
+        <div class="wrapper_head">
+            <div class="logo1"><a href="index.html"><img src="img/logo/zai.png" alt="logo"></a></div>
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html#head_promo">Новости</a></li>
+                    <li><a href="index.html#about_reviews">Сотрудники</a></li>
+                    <li><a href="booking.html">Подать заявление</a></li>
+                    <li><a href="consult.html">Консультация</a></li>
+                </ul>
+            </div>
+            <form>
+                <input type="text" placeholder="Искать здесь...">
+                <button type="submit"></button>
+              </form>
+        </div>
+
+     <!-- Форма записи на прием -->
+    <div class="meowka">
+        <form class="obratnuj-zvonok" autocomplete="off" action='index.html' method='post'>
+            <div class="form-zvonok"> 
+            <div>
+                <label>ФИО <span>*</span></label>
+                <input type='text' name='username' required></div>
+            <div>
+                <label>Номер телефона (с кодом) <span>*</span></label>
+                <input type='text' name='usernumber' required></div>
+            <div>
+                <label>Дата и время <span>*</span></label>
+                <input type='datetime-local' name='usernumber' required></div>
+            <div>
+                <label>Сообщение</label>
+                <input type='text' name='question'>
+            </div>
+            <input class="bot-send-mail" type='submit' value='Записаться'>
+            </div>
+            </form>
+    </div>
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="footer_wrapper">
+            <div class="number">
+                <p>+7(85558)7-07-15</p>
+            </div>
+            <div class="nav_footer">
+                <div class="nav_footer123">
+                    <a href="index.html#head_promo">Новости</a>
+                    <a href="booking.html">Подать заявлние</a>
+                </div>
+                <div class="nav_footer123">
+                    <a href="index.html#about_reviews">Контакты</a>
+                    <a href="consult.html">Записаться на консультацию</a>
+                </div>
+                <div class="nav_footer123">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

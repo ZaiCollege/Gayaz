@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+/* Шапка сайта */
+header{
+    background-color: rgb(104, 120, 212);
+    padding-top: 5px;
+}
+header .wrapper_head{
+    margin: 0 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+header .wrapper_head .logo1 img{
+    margin-right: 150px;
+    width: 75px;
+}
+header .wrapper_head li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+header .wrapper_head li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20pt;
+}
+header .wrapper_head li a:hover{
+    color: rgb(255, 255, 255);
+}
+/* Предоставляемые услуги */
+#about_company{
+    margin: 0;
+    background-color: rgb(165, 181, 235);
+    padding: 0 5%;
+}
+#about_company .about_purpose{
+    width: 500px;
+    text-align: left;
+    margin: 0 auto;
+}
+#about_company .about_purpose p{
+    font-size: 15pt;
+}
+h2{
+    margin: 0px 0 20px 0;
+    font-size: 24pt;
+    text-align: center;
+}
+/* Контакты */
+#about_reviews{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+#about_reviews .rev1, .rev2{
+    display: flex;
+    justify-content: center;
+}
+.rev_space1{
+    padding: 0 75px;
+}
+.rev_space1 p{
+    padding: 0 75px;
+}  
+.reviews1 p {
+    font-size: 14pt;
+}
+.reviews1 h3 {
+    font-size: 24pt;
+}
+.rev_space2{
+    padding: 0 300px;
+}
+#about_reviews h3{
+    margin: 10px 0;
+}
+#about_reviews img{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.about_motto p{
+    text-align: left;
+    font-size: 14pt;
+}
+/* Новости */
+.promotions .wrapper_promotions{
+    background-color: rgb(165, 181, 235);
+    margin: 0;
+    padding: 0 5%;
+}
+.promotions .wrapper_promotions .promotions_all .promo1{
+    display: flex;
+}
+.promotions .wrapper_promotions .promotions_all img{
+    width: 500px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.promotions .wrapper_promotions .promotions_all .text_promo{
+    margin-left: 20px;
+    font-size: 16pt;
+}
+.promotions .wrapper_promotions .promotions_all h4{
+    font-size: 20pt;
+    margin-bottom: 5px;
+}
+/* Подвал сайта */
+footer{
+    background-color: rgb(104, 120, 212);
+    color: black;
+}
+footer .footer_wrapper{
+    margin: 0 5%;
+}
+footer .number{
+    font-size: 24pt;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+footer .nav_footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .nav_footer .nav_footer123 a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24pt;
+}
+footer .nav_footer .nav_footer123 a:hover{
+    color: beige;
+}
+.algorithm_head h2{
+    margin: 0;
+    padding-top: 20px;
+}
+/* Форма подачи заявления*/
+#booking{
+    background-size: 100%;
+    height: 750px;
+    background-color: rgb(165, 181, 235);
+}
+.booking_wrapper{
+    margin: 0 5%;
+    color: rgb(0, 0, 0);
+}
+#booking form{ 
+    transform: scale(1.2);
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    padding-top: 50px;
+}
+#booking .booking4{
+    padding-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+#booking .booking4 button{
+    padding: 10px;
+}
+#booking .booking{
+    margin-left: 10px;
+}
+/* Поиск */
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #487be7;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #1561c5;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+  content: "поиск";
+  font-size: 14px;
+  color: #F9F0DA;
+}
+/* Форма записи на консультацию */
+.obratnuj-zvonok{
+    background-color: rgb(165, 181, 235);
+	width: 100%;
+	max-width: 350px;
+}
+.form-zvonok{
+    background-color: rgb(165, 181, 235);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.form-zvonok div{
+    background-color: rgb(165, 181, 235);
+	padding: 15px 0;
+}
+.bot-send-mail{
+    background-color: rgb(165, 181, 235);
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-zvonok label,.form-zvonok input{
+    
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-zvonok label{
+    background-color: rgb(165, 181, 235);
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.form-zvonok input{
+
+	margin-top: 10px;
+}
+.form-zvonok label span{
+	color: red;
+}
+.form-zvonok .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: #2870dd;
+	cursor: pointer;
+	border: 3px #356ce4 solid;
+	border-radius: 5px;
+}
+.form-zvonok .bot-send-mail:hover{
+	color: #055daf;
+	background-color: #fff;
+}
+.meowka {
+    background-color: rgb(165, 181, 235);
+    padding-bottom: 160px;
+}

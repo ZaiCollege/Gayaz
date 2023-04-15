@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подача заявления</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Шапка сайта -->
+        <div class="wrapper_head">
+            <div class="logo1"><a href="index.html"><img src="img/logo/zai.png" alt="logo"></a></div>
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.html#head_promo">Новости</a></li>
+                    <li><a href="index.html#about_reviews">Сотрудники</a></li>
+                    <li><a href="booking.html">Подать заявление</a></li>
+                    <li><a href="consult.html">Консультация</a></li>
+                </ul>
+            </div>
+            <form>
+                <input type="text" placeholder="Искать здесь...">
+                <button type="submit"></button>
+              </form>
+        </div>
+    <!-- Форма подачи заявления -->
+    <section id="booking">
+        <div class="booking_wrapper">
+            <form action="index.html" method="get">
+                <div class="booking2 booking">
+                    <label for="sername">Фамилия:</label>
+                    <input type="text" placeholder="Иванов" id="sername">
+                    <br>
+                    <label for="name">Имя:</label>
+                    <input type="text" placeholder="Иван" id="name">
+                    <br>
+                    <label for="otchestvo">Отчество:</label>
+                    <input type="text" placeholder="Иванович" id="otchestvo">
+                    <br>
+                    <label for="courses">Тема запроса:</label>
+                    <select id="courses" name="student_courses">
+                        <option value="computer_engineering">Права собственности на земельные участки</option>
+                        <option value="slectrical_engineering">Подтверждении трудового стажа</option>
+                        <option value="mechanical_engineering">Размер заработной платы</option>
+                    </select>
+                    <br>
+                    <label for="birthday">Дата рождения:</label>
+                    <input type="date" id="birthday">
+                    <br>
+                    <label for="number_document">Серия и номер паспорта:</label>
+                    <input type="number" placeholder="11 04 000000" id="number_document">
+
+                    <div class="booking4">
+                        <input type="submit" value="Отправить запрос">
+                        <input type="reset" value="Очистить форму запроса"></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="footer_wrapper">
+            <div class="number">
+                <p>+7(85558)7-07-15</p>
+            </div>
+            <div class="nav_footer">
+                <div class="nav_footer123">
+                    <a href="index.html#head_promo">Новости</a>
+                    <a href="booking.html">Подать заявлние</a>
+                </div>
+                <div class="nav_footer123">
+                    <a href="index.html#about_reviews">Контакты</a>
+                    <a href="consult.html">Записаться на консультацию</a>
+                </div>
+                <div class="nav_footer123">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
